@@ -1,0 +1,196 @@
+@import url(http://fonts.googleapis.com/css?family=Droid+Sans:400,700);
+@import url('https://fonts.googleapis.com/css?family=Lato');
+html {
+  background: url("back2.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.content h3,h2,p{
+	font-family: 'Romanesco',sans-serif;
+  font-size: 30px;
+}
+.build-with-tail img {
+
+  width: 760px;
+height: auto;
+margin-bottom: 1.5em;
+position: relative;
+left: -1%;
+}
+.content h1
+{
+  font-family: 'Pinyon Script',sans-serif;font-size: 60px;
+  text-decoration: none;
+}
+.top{
+	text-align: center;
+	width: 100%;
+}
+#list{
+	display: inline-block;
+	width: 100%;
+}
+.tab{
+	font-family: "Droid Sans", arial, verdana, sans-serif;
+	font-weight: 700;
+	color: white;
+	text-decoration: none;
+	display: inline-block;
+	padding-top: 2%;
+	padding-left: 5%;
+	padding-right: 5%;
+	padding-bottom: 2%;
+	text-transform: uppercase;
+
+}
+.tab a{
+	text-decoration: none;
+	color: white;
+
+
+}
+.logo{
+	position: absolute;
+}
+#nxtlogo{
+	max-width: 120px;
+	max-height: 120px;
+}
+.content{
+	text-align: center;
+	padding-left: 10%;
+	padding-right: 10%;
+	color: white;
+}
+
+
+.content h3,h2{
+	font-family: 'Lato', sans-serif;
+}
+.fa{
+	color: white;
+}
+.fa:hover{
+	transition: ease 0.5s;
+	color: #2980b9;
+}
+#social{
+	display: inline-block;
+	list-style-type: none;
+	width: 100%;
+  text-align: center;
+}
+#social li{
+	display: inline-block;
+	padding-right: 2%;
+}
+#donate{
+	border-radius: 5px;
+	border: 1px solid white;
+	padding: 5% 10% 5% 10%;
+	font-size: 2em;
+}
+
+.content h1	{
+
+     font-family: 'Pinyon Script'sans-serif;
+     font-size: 60px;
+    text-decoration: none;
+}
+.content h3,h2{
+   font-family: 'Romanesco', sans-serif;
+}
+.box {
+  width: 40%;
+  margin: 0 auto;
+  background: rgba(255,255,255,0.2);
+  padding: 35px;
+  border: 2px solid #fff;
+  border-radius: 20px/50px;
+  background-clip: padding-box;
+  text-align: center;
+}
+
+.button {
+  font-size: 1em;
+  padding: 10px;
+  color: #fff;
+
+  border-radius: 20px/50px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.3s ease-out;
+}
+.button:hover {
+  background: #06D85F;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  transition: opacity 500ms;
+  visibility: hidden;
+  opacity: 0;
+}
+.overlay:target {
+  visibility: visible;
+  opacity: 1;
+}
+
+.popup {
+  margin: 120px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 5px;
+  width: 50%;
+  position: relative;
+  transition: all 5s ease-in-out;
+}
+
+.popup h2 {
+  margin-top: 0;
+  color: #333;
+
+}
+.popup .close {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  transition: all 200ms;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: black;
+}
+.popup .close:hover {
+  color: #06D85F;
+}
+.popup .content2 {
+  max-height: 80%;
+  overflow: auto;
+}
+
+@media screen and (max-width: 700px){
+  .box{
+    width: 70%;
+  }
+  .popup{
+    width: 70%;
+  }
+}
+.in{
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style-type: none;
+  padding-bottom: 3%;
+}
+.new{
+  padding-bottom: 3%;
+}

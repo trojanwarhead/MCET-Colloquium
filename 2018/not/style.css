@@ -1,0 +1,162 @@
+@import 'https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css';
+
+body {
+
+}
+
+#alertbar{
+  width:100%;
+  position:absolute;
+  top:0;
+  left:0;
+  background:#1a202c;
+  z-index: 1;
+  height:50px;
+  border-bottom:2px groove #16d296;
+  font-family:'Open Sans';
+  animation: bar-slide 18s;
+  -webkit-transition: all 800ms cubic-bezier(0.455, 0.03, 0.515, 0.955);
+  overflow:hidden;
+  transform: translateY(-100px);
+  text-shadow: 2px 3px 2px rgba(0,0,0,0.3);
+}
+.titling {
+  color:#fff;
+  padding:10px;
+  font-weight:700;
+  font-size:18px;
+  position:absolute;
+  left:45%;
+  z-index:999;
+  animation: titling-slide 13s;
+  animation-delay:2.4s;
+  -webkit-transition: all 800ms cubic-bezier(0.455, 0.03, 0.515, 0.955);
+
+}
+.titling img{
+  height:30px;
+  padding-right:10px;
+  vertical-align:middle
+}
+
+.user-section {
+  background:#161a25;
+  width:50%;
+  height:50px;
+  position:absolute;
+  right:-1100px;
+  animation: slanted-slide 8s;
+  animation-delay:2.2s;
+}
+
+.user-section:before {
+  transform: skewX(-50deg);
+  content: '';
+  width:80px;
+  height:50px;
+  position:absolute;
+  right:935px;
+  background:#161a25;
+  overflow:hidden;
+  border-left:2px solid #232838;
+}
+.user2{
+
+  //background:#161a25;
+  width:50%;
+  height:50px;
+  position:absolute;
+  right:-1100px;
+  animation: slanted-slide 5.2s;
+  animation-delay:9s;
+
+}
+.user2:before {
+  transform: skewX(-50deg);
+  content: '';
+  width:80px;
+  height:50px;
+  position:absolute;
+  right:935px;
+  //background:#161a25;
+  overflow:hidden;
+  border-left:2px solid #232838;
+}
+
+#user {
+  color:#16d296;
+  font-weight:700;
+  padding:5px;
+  position:absolute;
+  top:0;
+  left:-5%;
+}
+#msg {
+  position:absolute;
+  bottom:8px;
+  color:#fff;
+  font-weight:400;
+  font-size:14px;
+  left: -5%;
+}
+#pop{
+position:absolute;
+padding:15px;
+font-weight: 700;
+color: #fff;
+left:0;
+
+
+}
+
+
+@keyframes bar-slide {
+  0% {
+  transform: translateY(-100px);
+  }
+  10% {
+  transform: translateY(0px);
+  }
+  85% {
+  transform: translateY(0px);
+  }
+
+  95% {
+  transform: translateY(-100px);
+  }
+}
+
+@keyframes slanted-slide {
+  0% {
+  right:-1100px;
+  }
+  15% {
+  right:0px;
+  }
+
+  85% {
+  right:0px;
+  }
+
+  100% {
+  right:-1100px;
+  }
+}
+
+
+@keyframes titling-slide {
+  2% {
+    transform: translateX(0px);
+  }
+  12% {
+  transform: translateX(-250px);
+  }
+
+  82% {
+  transform: translateX(-250px);
+  }
+
+  92% {
+  transform: translateX(0px);
+  }
+}

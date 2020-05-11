@@ -1,0 +1,636 @@
+<!DOCTYPE html>
+<!-- saved from url=(0033)http://drishticet.org/events.html -->
+<html lang="en" class="js fa-events-icons-ready"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1, user-scalable=0">
+    <title>COLLOQUIUM '18</title>
+    <link href="./Events_files/css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="./Events_files/base.css">
+    <link rel="stylesheet" type="text/css" href="./Events_files/normalize.css">
+    <link rel="stylesheet" type="text/css" href="./Events_files/menu_sideslide.css">
+    <link rel="apple-touch-icon-precomposed" sizes="57x57" href="apple-touch-icon-57x57.png" />
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="apple-touch-icon-114x114.png" />
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="apple-touch-icon-72x72.png" />
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="apple-touch-icon-144x144.png" />
+<link rel="apple-touch-icon-precomposed" sizes="60x60" href="apple-touch-icon-60x60.png" />
+<link rel="apple-touch-icon-precomposed" sizes="120x120" href="apple-touch-icon-120x120.png" />
+<link rel="apple-touch-icon-precomposed" sizes="76x76" href="apple-touch-icon-76x76.png" />
+<link rel="apple-touch-icon-precomposed" sizes="152x152" href="apple-touch-icon-152x152.png" />
+<link rel="icon" type="image/png" href="favicon-196x196.png" sizes="196x196" />
+<link rel="icon" type="image/png" href="favicon-96x96.png" sizes="96x96" />
+<link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32" />
+<link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16" />
+<link rel="icon" type="image/png" href="favicon-128.png" sizes="128x128" />
+<meta name="application-name" content="&nbsp;"/>
+<meta name="msapplication-TileColor" content="#FFFFFF" />
+<meta name="msapplication-TileImage" content="mstile-144x144.png" />
+<meta name="msapplication-square70x70logo" content="mstile-70x70.png" />
+<meta name="msapplication-square150x150logo" content="mstile-150x150.png" />
+<meta name="msapplication-wide310x150logo" content="mstile-310x150.png" />
+<meta name="msapplication-square310x310logo" content="mstile-310x310.png" />
+    <script src="./Events_files/jquery.js.download"></script>
+    <script>document.documentElement.className = "js";
+    var supportsCssVars = function () {
+        var e, t = document.createElement("style");
+        return t.innerHTML = "root: { --tmp-var: bold; }", document.head.appendChild(t), e = !!(window.CSS && window.CSS.supports && window.CSS.supports("font-weight", "var(--tmp-var)")), t.parentNode.removeChild(t), e
+    };
+    supportsCssVars() || alert("Please view this demo in a modern browser that supports CSS Variables.");</script>
+<link href="./Events_files/71779d9902.css" media="all" rel="stylesheet"></head>
+<body class="demo-5 render" style="touch-action: pan-y; user-select: none; -webkit-user-drag: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);">
+<main>
+
+
+    <div class="fab-container" style="width:100%;height: 100%;position: absolute">
+
+
+
+    <link rel="stylesheet" href="./Events_files/bootstrap.min.css">
+    <script src="./Events_files/71779d9902.js.download"></script>
+    <script src="./Events_files/jquery.js.download"></script>
+    <script src="./Events_files/velocity.js.download"></script>
+
+    <style>
+
+        .another-cont {
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+            position: fixed !important;
+            z-index: 1000000000000000000000000000000000000000000000000000;
+            background-color: #000000; }
+
+        @keyframes play {
+            0% {
+                background-position-y: 0; }
+            50% {
+                background-position-y: -1445px; }
+            100% {
+                background-position-y: 0; } }
+
+        .loading-logo {
+            width: 250px;
+            height: 250px;
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            margin: auto;
+            background: url("images/logowhitecropped.png");
+            animation: load 1.5s infinite;
+            background-size: cover;
+            transition: all 1s ease-in-out;
+            transform: scale(0.9); }
+
+        @keyframes load {
+            0% {
+                transform: scale(0.9);
+                opacity: .1; }
+            50% {
+                transform: scale(1);
+                opacity: 1; }
+            100% {
+                transform: scale(0.9);
+                opacity: .1; } }
+
+        .loading-text {
+            width: 337px;
+            height: 289px;
+            font-family: Raleway, sans-serif !important;
+            font-size: 70px !important;
+            font-weight: 400 !important;
+            text-align: center;
+            position: absolute;
+            opacity: 1;
+            bottom: -100px;
+            left: 0;
+            right: 0;
+            border: none;
+            outline: none;
+            color: black !important;
+            -webkit-text-stroke: 1px white;
+            margin: auto; }
+
+        .loading-text:before {
+            content: attr(data-text);
+            position: absolute;
+            overflow: hidden;
+            width: 0;
+            color: white;
+            animation: fill-1 1.5s infinite; }
+
+        @keyframes fill-1 {
+            50% {
+                width: 260px; }
+            100% {
+                width: 0; } }
+
+        .img {
+            position: absolute;
+            left: 0;
+            right: 0;
+            top: 25px;
+            margin: auto;
+            z-index: 10000;
+            transition: ease-in-out, 700ms;
+            transform: scale(1); }
+
+        .img:hover {
+            transition: ease-in 300ms;
+            transform: scale(1.1); }
+
+        .ham-fab {
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            right: 45px;
+            z-index: 10000;
+            border-radius: 50%;
+            width: 48px;
+            height: 48px;
+            margin: auto;
+            background-color: white;
+            cursor: pointer;
+            transform: scale(1);
+            transition: linear, 500ms;
+        }
+
+        .ham-btn {
+            background: none;
+            z-index: 1000000000;
+            border: none;
+            margin: auto;
+            text-decoration: none;
+            cursor: pointer;
+        }
+
+        .fa-lg {
+            vertical-align: -80%; }
+
+        .ham-btn:focus {
+            outline: 0;
+        }
+
+        .ham-container {
+            position: absolute;
+            height: 100%;
+            width: 100%;
+            background-color: white;
+            z-index: 9000;
+            opacity: 0;
+            display: none;
+            overflow: hidden;
+        }
+
+        .ham-text-container {
+            position: absolute;
+            width: 250px;
+            text-align: center;
+            height: 350px;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            transform: translateY(200%);
+            transition: all ease-in-out .1s;
+            margin: auto;
+        }
+
+        .ham-text-container h1 {
+            font-size: 50px !important;
+            font-family: Raleway, sans-serif !important;
+            font-weight: 400 !important;
+            opacity: .7 !important;
+            color: white !important;
+        }
+
+        .ham-text-container h1:hover {
+            text-decoration: underline !important;
+            text-decoration-color: white !important;
+        }
+
+        .ham-text-container a {
+            color: white !important;
+        }
+
+        .insta-fab {
+            display: none;
+        }
+
+        .fb-fab {
+            display: none;
+        }
+
+
+
+        #img-bg {
+            position: absolute;
+            width: 550px;
+            height: 550px;
+            right: 0;
+            bottom: 0;
+            top: 80px;
+            left: 50px;
+            resize: both;
+            margin: auto;
+            background-image: url("images/logowhitecropped.png");
+            background-size: 550px 550px;
+            opacity: .1;
+            background-repeat: no-repeat;
+        }
+
+        #canvas-basic {
+            position: absolute;
+            display: block;
+            width: 100%;
+            height: 100%;
+            background-color: black;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+        }
+     @media screen and (max-width: 480px) {
+         #img-bg {
+             left: 0;
+             right: 0;
+             top: 0;
+             width: 250px;
+             height: 250px;
+             background-size: 250px 250px;
+         }
+
+         .ham-text-container {
+             width: 300px;
+             height: 400px;
+             top: 80px;
+         }
+
+         .ham-text-container h1 {
+             font-size: 40px !important;
+         }
+
+         .ham-fab {
+             position: absolute;
+             top: unset;
+             bottom: 25px;
+             right: 20px;
+             z-index: 10000;
+             border-radius: 50%;
+             width: 48px;
+             height: 48px;
+             margin: auto;
+             background-color: white;
+             cursor: pointer;
+             transform: scale(1.1);
+             transition: linear, 500ms;
+
+         }
+
+         .img {
+             position: absolute;
+             left: 0;
+             right: 0;
+             margin: auto;
+             top: 0px;
+             transform: scale(0.8)!important; }
+         .img:hover {
+             transform: scale(0.8) !important; }
+
+         .fa {
+             color: black; !important
+         }
+
+         .fb-fab {
+             display: block;
+             position: absolute;
+             bottom: 25px;
+             right: 0;
+             left: 0;
+             z-index: 100000000000000;
+             border-radius: 50%;
+             width: 48px;
+             height: 48px;
+             margin: auto;
+             background-color: white;
+             cursor: pointer;
+             transform: scale(0);
+             transition: linear, 500ms; }
+
+         .insta-fab {
+             display: block;
+             position: absolute;
+             bottom: 25px;
+             left: 20px;
+             z-index: 100000000000000;
+             border-radius: 50%;
+             width: 48px;
+             height: 48px;
+             margin: auto;
+             background-color: white;
+             cursor: pointer;
+             transform: scale(0);
+             transition: linear, 500ms; }
+
+     }
+
+
+
+
+    </style>
+
+
+
+
+
+
+<a href="http://mcetcolloquium.in/index.html">
+    <img class="img img1" src="./Events_files/logosm.png">
+</a>
+
+<div class="ham-container">
+
+    <canvas id="canvas-basic"></canvas>
+
+    <div id="img-bg"></div>
+
+    <div class="ham-text-container">
+
+        <h1 class="text-dark"><a href="index2.html"> HOME </a></h1>
+        <h1 class="text-dark"><a href="events.html"> EVENTS </a></h1>
+        <h1 class="text-dark"><a href="informals_detail.html">INFORMALS</a></h1>
+        <h1 class="text-dark"><a href="contact.html">ABOUT</a></h1>
+
+    </div>
+
+
+</div>
+
+<div class="fb-fab text-center">
+
+    <a href="http://www.facebook.com/drishticet" target="_blank"> <i class="fa fa-facebook fa-lg" aria-hidden="true"></i>
+    </a>
+
+
+</div>
+
+<div class="insta-fab text-center">
+
+    <a href="http://www.instagram.com/drishticet" target="_blank"> <i class="fa fa-instagram fa-lg" aria-hidden="true"></i>
+    </a>
+
+
+</div>
+
+
+<div class="ham-fab text-center">
+
+    <button class="ham-btn ">
+
+        <i id="menu_button" class="fa fa-bars fa-lg" aria-hidden="true"></i>
+
+
+    </button>
+
+
+</div>
+
+<script defer="">
+
+    $(document).ready(function () {
+
+
+        $imgFlag = 0
+
+        $hamFlag = 0
+        $readFlag = 0
+
+       // $('.ham-container').hide()
+
+        $('.ham-btn').click(function () {
+
+
+
+            $mediaFlag = '25px'
+            if ($hamFlag === 0) {
+                $('.insta-fab, .fb-fab').velocity({scale: 1.1}, 100, "swing")
+                $hamFlag = 1
+            }
+           /* else if ($hamFlag === 1 && $readFlag === 1) {
+                $('.mail-fab,.close-fab').velocity({scale: 1})
+                $hamFlag = 0
+            }*/
+
+            else {
+                $('.insta-fab, .fb-fab').velocity({scale: 0}, 100, "swing")
+                $hamFlag = 0
+            }
+
+
+            if (window.matchMedia('(max-width: 768px)').matches)
+                $mediaFlag = 0
+
+
+            console.log("inside click!!!!!")
+
+            if ($imgFlag === 0) {
+
+               // $('.ham-container').css({display: 'block'})
+
+                $('.ham-container').velocity('fadeIn', {duration:200, easing:"linear", complete:function () {
+
+
+                    $('.ham-text-container').velocity({translateY: '0%'}, 200, "swing")
+
+
+                    $('#menu_button').removeClass('fa-bars').addClass('fa-times')
+
+                }})
+               // $('.img').velocity({right: 0, left: 0, '-webkit-filter': 'invert(100%)'}, 200, "swing")
+
+                $imgFlag = 1
+
+            }
+            else if ($imgFlag === 1) {
+
+                $('.ham-container').velocity('fadeOut', {duration:400, easing:"linear", begin:function () {
+
+
+                    //$('.ham-container').css({display: 'none'})
+
+                    $('.ham-text-container').velocity({translateY: '200%'}, 200, "swing")
+
+                    $('#menu_button').removeClass('fa-times').addClass('fa-bars')
+
+                }})
+              //  $('.img').css({left: $mediaFlag, right: ''})
+
+
+                $imgFlag = 0
+
+            }
+
+
+        })
+
+    })
+
+</script>
+
+
+
+
+</div>
+    <div class="menu-wrap">
+        <nav class="menu">
+            <div class="icon-list">
+              <a href="main.html"><span>MAIN EVENTS</span></a>
+              <a href="list/a.html"><span>ACME</span></a>
+              <a href="list/a.html"><span>ZERO GRAVITY</span></a>
+              <a href="list/a.html"><span>BIO-TECHNOLOGY</span></a>
+              <a href="dept/eve/civil.html"><span>CIVIL</span></a>
+              <a href="dept/eve/cs.html"><span>COMPUTER SCIENCE</span></a>
+              <a href="list/a.html"><span>ELECTRONICS</span></a>
+              <a href="dept/eve/eee.html"><span>ELECTRICAL</span></a>
+              <a href="list/a.html"><span>MECHANICAL</span></a>
+              <a href="list/a.html"><span>MCA</span></a>
+
+
+            </div>
+        </nav>
+        <button class="close-button" id="close-button">Close Menu</button>
+    </div>
+    <button class="menu-button" id="open-button">Open Menu</button>
+    <div class="slideshow">
+
+        <div class="slides">
+
+            <div class="slide slide--current">
+                <div class="slide__img" style="background-image: url(images/originals.jpg); -webkit-filter: none!important;"></div>
+                <div class="border-container" style="width: 600px"></div>
+                <h2 class="slide__title" style="font-size: 100px!important;">MAIN <span>EVENTS</span></h2>
+                <div class="border-container" style="font-size: 50px!important;width: 600px"></div>
+                <p class="slide__desc"></p>
+                <a class="slide__link" href="main.html">View Events</a>
+            </div>
+            <div class="slide">
+                <div class="slide__img" style="background-image: url(images/paper.jpg)"></div>
+                <div class="border-container" style="width: 300px"></div>
+                <h2 class="slide__title"style="font-size: 120px !important;">ACME</h2>
+                <div class="border-container" style="width: 300px"></div>
+                <p class="slide__desc">NATIONAL LEVEL PAPER PRESENTATION COMPETITION</p>
+                <a class="slide__link" href="list/a.html">View Details</a>
+            </div>
+
+        <div class="slide">
+            <div class="slide__img" style="background-image: url(images/zero.jpg)"></div>
+            <div class="border-container" style="width: 300px"></div>
+            <h2 class="slide__title"style="font-size: 120px !important;">ZERO GRAVITY</h2>
+            <div class="border-container" style="width: 300px"></div>
+            <p class="slide__desc">ORGANISED BY MCET MECH. DEPT.</p>
+            <a class="slide__link" href="dept/eve/mech.html">View Events</a>
+        </div>
+
+        <div class="slide ">
+            <div class="slide__img" style="background-image: url(images/mechanical.jpg)"></div>
+            <div class="border-container" style="width: 650px"></div>
+            <h2 class="slide__title">MECHA<span>NICAL</span></h2>
+            <div class="border-container" style="width: 650px"></div>
+            <p class="slide__desc"></p>
+            <a class="slide__link" href="dept/eve/mech.html">View Events</a>
+
+
+        </div>
+
+
+
+        <div class="slide">
+            <div class="slide__img" style="background-image: url(images/electrical.jpg)"></div>
+            <div class="border-container" style="width: 600px"></div>
+            <h2 class="slide__title">ELECT<span>RICAL</span></h2>
+            <div class="border-container" style="width: 600px"></div>
+            <p class="slide__desc"></p>
+            <a class="slide__link" href="dept/eve/eee.html">View Events</a>
+        </div>
+
+        <div class="slide">
+            <div class="slide__img" style="background-image: url(images/electronics.jpg)"></div>
+            <div class="border-container " style="width: 600px"></div>
+            <h2 class="slide__title">ELECT<span>RONICS</span></h2>
+            <div class="border-container" style="width: 600px"></div>
+            <p class="slide__desc"></p>
+            <a class="slide__link" href="list/a.html">View Events</a>
+        </div>
+        <div class="slide">
+            <div class="slide__img" style="background-image: url(images/computer.jpg)"></div>
+            <div class="border-container" style="width: 600px"></div>
+            <h2 class="slide__title" style="font-size: 100px !important;">COMPUTER <span>SCIENCE</span></h2>
+            <div class="border-container" style="width: 600px"></div>
+            <p class="slide__desc"></p>
+            <a class="slide__link" href="dept/eve/cs.html">View Events</a>
+        </div>
+        <div class="slide">
+            <div class="slide__img" style="background-image: url(images/civil.jpg)"></div>
+            <div class="border-container" style="width: 300px"></div>
+            <h2 class="slide__title">CIVIL</h2>
+            <div class="border-container" style="width: 300px"></div>
+            <p class="slide__desc"></p>
+            <a class="slide__link" href="dept/eve/civil.html">View Events</a>
+        </div>
+
+        <div class="slide">
+            <div class="slide__img" style="background-image: url(images/bio.jpeg)"></div>
+            <div class="border-container" style="width: 650px"></div>
+            <h2 class="slide__title" style="font-size: 80px !important;">BIO <span>TECHNOLOGY</span></h2>
+            <div class="border-container" style="width: 650px"></div>
+            <p class="slide__desc"></p>
+            <a class="slide__link" href="list/a.html">View Events</a>
+        </div>
+
+
+
+
+            <div class="slide">
+                <div class="slide__img" style="background-image: url(images/computer.jpg)"></div>
+                <div class="border-container" style="width: 300px"></div>
+                <h2 class="slide__title">MCA</h2>
+                <div class="border-container" style="width: 300px"></div>
+                <p class="slide__desc"></p>
+                <a class="slide__link" href="list/a.html">View Events</a>
+            </div>
+
+
+
+        </div>
+
+
+        <svg class="shape" width="100%" height="100%" viewbox="0 0 412 660">
+            <defs>
+            <pattern fill="#8B000077" id="pattern" width="40" height="40" patternUnits="userSpaceOnUse">
+            <polygon id="Path-2" points="0 40 40 0 20 0 0 20"></polygon>
+            <polygon id="Path-2-Copy" points="40 40 40 20 20 40"></polygon>
+            </pattern>
+            </defs>
+            <path fill="url(#pattern)" d="M 0,0 0,660 412,660 412,0 0,0 Z M 0,0 412,0 412,660 0,660 Z"></path>
+            </svg><nav class="slidenav">
+            <button class="slidenav__item slidenav__item--prev">Previous</button>
+            <span>/</span>
+            <button class="slidenav__item slidenav__item--next">Next</button>
+        </nav>
+    </div>
+</main>
+    <script>  //  window.alert('For Registration Visit this site from a PC \n PS : Registrations are yet to begin');
+    </script>
+    <script src="./Events_files/hammer.min.js.download"></script>
+<script src="./Events_files/classie.js.download"></script>
+<script src="./Events_files/event_main.js.download"></script>
+<script src="./Events_files/demo.js.download"></script>
+<script src="./Events_files/imagesloaded.pkgd.min.js.download"></script>
+<script src="./Events_files/anime.min.js.download"></script>
+<script src="./Events_files/demo5.js.download"></script>
+<script>
+    $('.fab-container').load('fab.html')
+</script>
+
+
+</body></html>
